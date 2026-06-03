@@ -1,0 +1,24 @@
+{
+  "name": "ai-workflow-plugin",
+  "id": "ai-workflow-plugin",
+  "owner": {
+    "name": "Jivan Enriquez"
+  },
+  "metadata": {
+    "description": "AI workflow skills — workspace setup, session onboarding, session review, and voice updating",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ai-workflow-plugin",
+      "source": "./",
+      "description": "Four workflow skills: /ai-setup scaffolds workspaces, /onboard briefs sessions on existing projects, /review captures learnings at session end, /update-voice refreshes writing style from sent emails",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jivan Enriquez"
+      },
+      "keywords": ["workflow", "setup", "onboarding", "calibration", "voice"],
+      "category": "workflow"
+    }
+  ]
+}

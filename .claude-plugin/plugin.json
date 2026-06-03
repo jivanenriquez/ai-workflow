@@ -1,0 +1,16 @@
+{
+  "name": "ai-workflow-plugin",
+  "description": "AI workflow skills — workspace setup, session onboarding, session review, and voice updating",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jivan Enriquez"
+  },
+  "license": "MIT",
+  "keywords": ["workflow", "setup", "onboarding", "calibration", "voice"],
+  "skills": [
+    "./skills/ai-setup",
+    "./skills/onboard",
+    "./skills/review",
+    "./skills/update-voice"
+  ]
+}
