@@ -32,10 +32,6 @@ Scans the current session for corrections, decisions, new facts, and patterns, t
 /review project  # explicitly targets the active project
 ```
 
-### `/update-voice` — Voice Calibration
-
-Refreshes a user's `voice-principles.md` by analysing their real sent emails and extracting genuine writing patterns.
-
 ## How it works
 
 The plugin uses a three-level folder hierarchy:

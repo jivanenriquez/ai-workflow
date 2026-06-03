@@ -10,7 +10,6 @@
   "skills": [
     "./skills/ai-setup",
     "./skills/onboard",
-    "./skills/review",
-    "./skills/update-voice"
+    "./skills/review"
   ]
 }

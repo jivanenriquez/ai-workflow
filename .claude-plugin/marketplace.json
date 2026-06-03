@@ -12,7 +12,7 @@
     {
       "name": "ai-workflow-plugin",
       "source": "./",
-      "description": "Four workflow skills: /ai-setup scaffolds workspaces, /onboard briefs sessions on existing projects, /review captures learnings at session end, /update-voice refreshes writing style from sent emails",
+      "description": "Three workflow skills: /ai-setup scaffolds workspaces, /onboard briefs sessions on existing projects, /review captures learnings at session end",
       "version": "1.0.0",
       "author": {
         "name": "Jivan Enriquez"
