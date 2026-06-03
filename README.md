@@ -66,4 +66,28 @@ Each level narrows scope. Project files only contain what's new for that project
 
 ## Installation
 
-Install via the Claude Code plugin system. Once installed, the four skills are available as slash commands in any Claude Code session opened inside your Cowork folder.
+Requires [Claude Code](https://claude.ai/code). Run these two commands inside any Claude Code session:
+
+**Step 1 — Add this repo as a marketplace:**
+
+```
+/plugin marketplace add jivanenriquez/ai-workflow-plugin
+```
+
+**Step 2 — Install the plugin:**
+
+```
+/plugin install ai-workflow-plugin@ai-workflow-plugin
+```
+
+The four skills will then be available as slash commands in any Claude Code session.
+
+To install for everyone on a shared project instead of just yourself:
+
+```
+/plugin install ai-workflow-plugin@ai-workflow-plugin --scope project
+```
+
+### First time setup
+
+After installing, run `/ai-setup cowork` to scaffold your workspace, then `/ai-setup workstation` for each domain of work you want to route through the system.
