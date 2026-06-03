@@ -71,7 +71,7 @@ Requires [Claude Code](https://claude.ai/code). Run these two commands inside an
 **Step 1 — Add this repo as a marketplace:**
 
 ```
-/plugin marketplace add https://github.com/jivanenriquez/ai-workflow-plugin.git
+/plugin marketplace add https://github.com/jivanenriquez/ai-workflow.git
 ```
 
 **Step 2 — Install the plugin:**
